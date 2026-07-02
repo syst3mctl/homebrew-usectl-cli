@@ -2,18 +2,18 @@ cask "usectl" do
   name "usectl"
   desc "CLI for the usectl deployment platform"
   homepage "https://usectl.com"
-  version "1.1.3"
+  version "1.1.4"
 
   binary "usectl"
 
   on_macos do
     on_intel do
       url "https://github.com/syst3mctl/usectl-cli/releases/download/v#{version}/usectl_#{version}_darwin_amd64.tar.gz"
-      sha256 "b3e492d775afeb87d0e15da5ffc059f14dcdd969af8eaadb2756bc0158de083b"
+      sha256 "ff5f0ea6c03848cbd131f34ab306495a4d6303940f137f0e00a7e74c010da8a1"
     end
     on_arm do
       url "https://github.com/syst3mctl/usectl-cli/releases/download/v#{version}/usectl_#{version}_darwin_arm64.tar.gz"
-      sha256 "a358a88838b1be03e7330495679660f7ab9113dca10d6b30262caeb5febb959c"
+      sha256 "c61e40abf0a171b37fa32d7d9b34b0e5cafa499cd71f0b4c989e830976d99311"
     end
   end
 
